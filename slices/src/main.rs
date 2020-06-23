@@ -1,4 +1,5 @@
-#[allow(unused_variables, unused_mut)]
+#![allow(unused_variables, unused_mut)]
+
 fn main() {
     let mut s = String::from("hello world");
     let word = first_word(&s);
